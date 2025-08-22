@@ -1,0 +1,24 @@
+1 create your own github account with our email -- 
+
+2 install git in your local pc
+
+3 create your own repo and push a file name notes --- push 
+4 create a folder name assignmet and push your last 2 assignment there 
+
+5 take a clone of our master branch  -- make sure you dont do any changes in our master repo 
+
+6 todays commands -- try those commands in your own repo
+
+
+
+
+
+
+// date 11 -09-24
+
+1 soruce code -------- clone 
+
+2 create your own branch ----- name_source
+
+3 batch2_students --> athrava ->  assignment . notes.  dsr. questions 
+ 

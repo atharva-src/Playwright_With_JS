@@ -1,0 +1,24 @@
+//Explain me the architechture of playwright 
+
+playwright is designed to provide a seemless autoamtion experince for modern web application 
+playwirght acheives this by offering fast, reliable and cross-complatibility 
+
+playwright works on web socket connection protcol (unlike selenium and cypress which works on https protocol)
+
+on clients side you can have your tests in various coded langauges (eg js , typescript)
+playwright servers communicates with the client side using web socket connection protocol 
+it communicates with the browser (cdp) (chrome dev protocol) and with rest (firefox , safari)
+
+the clinet server communcation happens through web scoket protocol in hand shake way (communivation happens both way )
+
+when you trigger a testcases for the first time  your testcases is converted in json format 
+this json format is transmitted to the server side using a single websckoet protocol then all the request are transfered using this
+single connection so this lessens the chances if failure and flakyness and also increases the speed of automation giveing playwright edge over other tools 
+ 
+
+ has its own :-  
+
+ test runner :- integrate in selenium,
+ API Library :- integrate in selenium,
+ Page Object , 
+ inbuilt methods , assertions 

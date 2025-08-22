@@ -1,0 +1,96 @@
+
+// comands to use for  creation & pushing the repo for first time 
+echo "# Source_Batch_2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main  // 
+git remote add origin https://github.com/SourceCode-code/Source_Batch_2.git
+git push -u origin main
+
+
+// git clone "repo-url"   --- clone the exstitng repo in your local 
+
+// git add .              ---- adds all your files to stagging 
+
+//git add filename          ---- add one file to stagging
+
+
+// git commit -m"commit message " --------- commits your changes to your repo
+
+// git push origin main          ---------- changes pushed to github 
+
+
+// to push changes in your exstitng repo 
+
+
+1 git add .
+2 git commit -m"commit message"
+3 git push origin main
+4 pull origin branchname 
+5 git fetch 
+6 git checkout 
+
+todays session 
+
+commands 
+git fetch 
+git pull origin 
+git diff        ------> shows the  comparise between current and last commit
+git checkout -f ------> gets your repo to last used commit state 
+git status ---------> shows the current repo status 
+git rm --cached filename -------> files removed only form commit 
+git rm filename ----------> filed removed from local
+
+branches  --------------
+
+
+// ----------------------
+
+1 revision 
+git checkout -f ------> gets your repo to last used commit state 
+
+git status ---------> shows the current repo status 
+
+git diff        ------> shows the  comparise between current (before adding and commit ) and last commit
+git diff --staged  ------> shows the comparise between added files and last  commited files 
+
+
+git rm --cached filename -------> files removed only form commit 
+git rm filename ----------> filed removed from local
+
+
+2 .gitignore 
+
+used to store sensitive data to aviod displaying it at org level or repo level
+
+3 braches and how to deal with 
+
+// 1 how to create a branch 
+
+git fetch -- gives a upoadtes access to git terminal
+git pull origin main -------- gets you the lastest changes in the master
+
+git checkout -b  used to create branch 
+git checkout branch name - used to trvaell in your branches 
+
+// git fetch -- makes your repo sync with all the branches 
+
+
+
+4 pull request  ---- a request used for merging your changes with main branch 
+raise pull request by ui
+
+5 git pull origin main -- commands to get your lastest changes in your local 
+
+
+
+
+
+
+
+
+
+
+
+

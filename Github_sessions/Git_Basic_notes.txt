@@ -1,0 +1,29 @@
+git -- version control  tool software 
+
+github--hosting platfrom (repo) // website -- 90% -- microsoft
+
+bitbucket ------- 10                              -- altsain
+
+
+
+untarck ---->                                stagging --------->                      github
+local                                        middle env                               website
+
+                                                                                               
+deleteled not recovered 
+
+
+echo "# Source_Batch_2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SourceCode-code/Source_Batch_2.git
+git push -u origin main
+
+// to get the latest changes --
+
+git pull origin main
+
+
+
